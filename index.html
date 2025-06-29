@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 id="birthday-title">🎉 Happy Birthday! 🎊</h1>
+            <!-- <div class="personalize">
+                <input type="text" id="nameInput" placeholder="Who's celebrating?">
+                <button onclick="personalizeMessage()"><i class="fas fa-magic"></i> Personalize</button>
+            </div> -->
+        </div>
+
+        <div class="cards-container">
+            <div class="cards-slider">
+                <div class="card">
+                    <img src="img/Pics1.jpg" alt="">
+                    <h2>Wishing You Joy</h2>
+                    <p>On this special day, I just want you to know how deeply appreciated and loved you are. May your
+                        year be filled with endless joy, good health, and the kind of peace that comes from knowing how
+                        much you mean to everyone around you.</p>
+                    <div class="card-icon">😊</div>
+                </div>
+                <div class="card">
+                    <img src="img/Pics2.jpg" alt="">
+                    <h2>Sweet Moments</h2>
+                    <p>May this year overflow with divine favor, open doors, answered prayers, and sweet surprises from
+                        heaven. You’ve been a vessel of love and light to me and everyone around you. As you enter this
+                        new chapter, may God continue to enlarge your territory and preserve your peace. Keep walking in
+                        His grace. Love you endlessly </p>
+                    <div class="card-icon">🎂</div>
+                </div>
+                <div class="card">
+                    <img src="img/Pics3.jpg" alt="">
+                    <h2>Amazing Year</h2>
+                    <p>To my sister, my protector, and my first best friend –
+                        Your presence in my life is something I’ll never take for granted. You’ve carried so much and
+                        still manage to be a light to others. I hope today you feel seen, celebrated, and deeply
+                        appreciated. You’ve done more for me than you know, and I’m always rooting for you. May life be
+                        kind to your heart this year and always.</p>
+                    <div class="card-icon">✨</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <<!-- button onclick="startConfetti()"><i class="fas fa-birthday-cake"></i> Celebrate!</button> -->
+                <button onclick="toggleMusic()"><i class="fas fa-music"></i> Play Music</button>
+                <!-- <button onclick="addBalloons()"><i class="fas fa-plus"></i> Add Balloons</button> -->
+        </div>
+
+        <audio id="birthdayMusic" loop>
+            <source src="Birthday song/WhatsApp Audio 2025-06-29 at 23.07.47_1d32b7a9.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <canvas id="confetti"></canvas>
+    <div id="balloon-container"></div>
+
+    <footer>
+        <marquee behavior="" direction="">Happy Birthday big Sist! 💖</marquee>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
