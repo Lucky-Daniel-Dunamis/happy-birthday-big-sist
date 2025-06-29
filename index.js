@@ -171,6 +171,8 @@ function toggleMusic() {
         '<i class="fas fa-music"></i> Play Music';
 }
 
+
+
 // Initialize on load
 window.onload = function() {
     addBalloons();
