@@ -1,11 +1,11 @@
-// Personalize Message
+/* // Personalize Message
 function personalizeMessage() {
   const name = document.getElementById("nameInput").value.trim() || "Friend";
   document.getElementById(
     "birthday-title"
   ).innerText = `🎉 Happy Birthday, ${name}! 🎊`;
   startConfetti();
-}
+} */
 
 // Balloon Functions
 function addBalloons() {

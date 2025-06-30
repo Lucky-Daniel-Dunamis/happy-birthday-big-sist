@@ -31,8 +31,8 @@ body {
 h1 {
     color: #ff0066;
     font-size: clamp(1.8rem, 5vw, 3rem);
-    text-shadow: 3px 3px 0 #fff;
-    margin-bottom: 20px;
+    text-shadow: 2px 2px 0 #fff;
+    margin-bottom: 18px;
     line-height: 1.2;
 }
 
